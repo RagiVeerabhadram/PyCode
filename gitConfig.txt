@@ -1,0 +1,11 @@
+This has been added after creating a new branch through vs code 
+
+below are the VS terminal commands
+PS C:\gitHub> git branch
+* master
+PS C:\gitHub> git switch -c brPycode
+Switched to a new branch 'brPycode'
+PS C:\gitHub> git status 
+On branch brPycode
+nothing to commit, working tree clean
+PS C:\gitHub> 
