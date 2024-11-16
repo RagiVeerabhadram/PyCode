@@ -38,3 +38,27 @@ First swithc to main branch
 <git command> git switch main
 <git command> git branch
 <git command> git merge brPycode (is the branch name)
+
+
+###########UPTO THIS WE Workd on git:: Now will see gitHub
+git remote add origin https://github.com/RagiVeerabhadram/PyCode.git
+git push --all
+
+
+Summary:
+
+VS Code completely integrated with git which is like local code manager -- is only available in you machine 
+to add these to global need to add it to the "GitHub" which is of web portal can be access to all. 
+
+
+********************************************************************************************************
+Notes: the above statements have been added as summary of what i learnd; to push these changes 
+1. Create new branch 
+    <gitcommand> git switch -c gitCmds 
+                 git add .
+                 git commit -m "summary"
+      now swtich to main 
+                 git switch main 
+      merge the newly created branch i.e, gitCmds
+                 git merge gtiCmds            
+*****************************************************************************************************
