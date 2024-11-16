@@ -9,3 +9,28 @@ PS C:\gitHub> git status
 On branch brPycode
 nothing to commit, working tree clean
 PS C:\gitHub> 
+
+----after commit the changes 
+PS C:\gitHub> git status 
+On branch brPycode
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitConfig.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\gitHub> git add . 
+PS C:\gitHub> git commit -m "Created new branch add some notes in txt file"
+[brPycode 7a88df0] Created new branch add some notes in txt file
+ 1 file changed, 11 insertions(+)
+PS C:\gitHub> git log --oneline
+7a88df0 (HEAD -> brPycode) Created new branch add some notes in txt file
+ba351d2 (master) first commit
+
+AFTER the above commit add these changes to main branch using "MERGE"   
+git merge <branch>
+
+First swithc to main branch 
+<git command> git switch main
+<git command> git branch
+<git command> git merge brPycode (is the branch name)
