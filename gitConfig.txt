@@ -1,5 +1,9 @@
 This has been added after creating a new branch through vs code 
 
+########### CREATE NEW BRANCH ###################
+    git switch -c  brnPyCode01
+#################################################
+
 below are the VS terminal commands
 PS C:\gitHub> git branch
 * master
